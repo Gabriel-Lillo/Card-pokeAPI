@@ -34,7 +34,7 @@ const fetchData = async (id) => {
 const pintarCard = (pokemon) => {
 
     const flex = document.querySelector(".flex")
-    const template = document.querySelector('#template-card').content // "content" se necesita para tomar todo lo que está dentro de la etiqueta.
+    const template = document.querySelector('#template-card').content // ".content" se necesita para tomar todo lo que está dentro de la etiqueta.
     const clone = template.cloneNode(true)
     const fragment = document.createDocumentFragment()
 
